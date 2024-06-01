@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  color: white;
+  background-color: rgb(56, 55, 56);
+}
+main {
+  padding: 0 2%;
+}
+aside {
+  height: 90%;
+  background: url(../../../public/img/php/heroku-art-php-screen.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0 1px 10px black;
+  margin-block-end: 1%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.tech{
+  margin-block-end: 10%;
+}
+.center {
+  text-align: center;
+}
+
+.intro {
+  margin-top: 5%;
+  margin-block-end: 5%;
+}
+.title {
+  margin-block-end: 1%;
+}
+.title > h1 {
+  margin-bottom: 1%;
+}
+
+hr {
+  width: 25%;
+  border: 2px solid #6d9eeb;
+  border-radius: 0 2px 2px 0;
+}
+
+.conteiner1 {
+  display: flex;
+  width: 100vw;
+}
+
+.conteiner > .cards  {
+    margin-top: 20%;
+}
+.conteiner > .cards > p {
+  text-align: justify;
+  display: flex;
+  width: 80%;
+}
+.conteiner > .cards > .title > hr {
+    width: 55%;
+}
+.conteiner > .cards > .title:where(.title,p)  {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.conteiner1 > .conteiner-img {
+  width: 50%;
+}
+.conteiner1 > .conteiner-text {
+  margin-inline-end: 5%;
+  width: 50%;
+}
+.lang > p {
+  margin-top: 2%;
+  margin-block-end: 2%;
+}
+p {
+  font-weight: 300;
+  text-align: justify;
+  margin-inline-end: 5%;
+  width: 90%;
+}
+.tech > .conteiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.conteiner1 > .conteiner-img > img {
+  width: 70%;
+}
+.frames > p {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.frames > .frame {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+iframe{
+  width: 80%;
+  height: 100%;
+}

@@ -1,0 +1,221 @@
+/*fontes do site*/
+.jaro-uniquifier {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/*banner*/
+.banner {
+  position: relative;
+  right: 6px;
+  bottom: 10px;
+  z-index: -1;
+  width: 100vw;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.banner > img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-banner {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #00ffff;
+  font-size: 150px;
+  font-family: "Jaro", sans-serif;
+  margin-bottom: auto;
+}
+
+/*Sobre a Go*/
+.Go h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  color: #00ffff;
+  margin: 11%;
+  margin-bottom: auto;
+  margin-top: 5%;
+}
+
+.Go p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  margin-left: 55%;
+  margin-right: 8%;
+  margin-bottom: auto;
+}
+
+.Go img {
+  position: absolute;
+  top: 95%;
+  left: 14%;
+}
+
+.carac h3 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #00ffff;
+  margin-top: 10%;
+}
+
+/*Tabelas*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.brazil table {
+  border-collapse: collapse;
+  border: medium transparent;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-right: 10%;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  border-spacing: 90%;
+  height: 500px;
+  padding-left: 80px;
+  width: 700px;
+  aspect-ratio: auto 350 / 250;
+  height: 500px;
+  margin-left: 40px;
+}
+
+tbody th {
+  height: 80px;
+  border-bottom: 50px thick outset transparent;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-justify: auto;
+  border-collapse: collapse;
+  padding-left: 30px;
+}
+
+tbody td {
+  height: 40px;
+  border-bottom: 100px solid transparent;
+  background-color: transparent;
+  text-align: justify;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-inline-end: 10%;
+  border-spacing: 20%;
+  text-indent: 10%;
+  margin-left: 30%;
+}
+
+.margin td {
+  margin: 30%;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 10%;
+  margin-left: 30%;
+}
+
+.blox1 {
+  background-color: transparent;
+  height: 5px;
+  color: #fff;
+  font-size: 26px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.blox2 tr {
+  font-size: 15%;
+}
+
+.blox3 table th {
+  background-color: transparent;
+}
+
+/*sobre quem pode usar Golang*/
+.quem-pode {
+  text-align: center;
+  color: #00ffff;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -3%;
+}
+
+.quem-pode2 li {
+  text-align: justify;
+  color: #fff;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trabalhador td {
+  margin: 30%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.tabela-quem table {
+  border-collapse: collapse;
+  border: medium transparent;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: transparent;
+  color: #fff;
+  border-spacing: 10%;
+}
+
+/*canais*/
+.canais {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #00ffff;
+  border-top: -40%;
+}
+
+.tudo table {
+  border-collapse: collapse;
+  border: medium transparent;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+}
+
+.video th {
+  padding-left: 5%;
+  text-align: center;
+}
+
+.nome td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 9%;
+}
