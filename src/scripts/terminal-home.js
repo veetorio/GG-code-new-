@@ -9,7 +9,7 @@ for (const iterator of pages) {
 
 function redi(ev) {
     if (ev === "home") {
-        location.href = '../../../../index.html';
+        location.href = '../../../../home/index.html';
     } else {
         location.href = `./src/version/desktop/pages/${ev}-page.html`;
     }
