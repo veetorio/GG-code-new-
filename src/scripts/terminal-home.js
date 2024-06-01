@@ -11,6 +11,6 @@ function redi(ev) {
     if (ev === "home") {
         location.href = '../../../../home/index.html';
     } else {
-        location.href = `./src/version/desktop/pages/${ev}-page.html`;
+        location.href = `../src/version/desktop/pages/${ev}-page.html`;
     }
 }
