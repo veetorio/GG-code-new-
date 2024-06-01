@@ -11,7 +11,7 @@ for (const iterator of pages) {
 
 function redi(ev) {
     if (ev === "index") {
-        location.href = '../../../../home/index.html';
+        location.href = '../../../../index.html';
     } else {
         location.href = `../pages/${ev}-page.html`;
     }
