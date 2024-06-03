@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.banner{
+    height: 60vh;
+    width: 100%;
+    background: url(../../../public/img/mysql/What-is-MySQL.jpeg) 50% 50% no-repeat;
+    background-size: cover;
+}
+main{
+    padding: 0 5%;
+}
+.s1 > div {
+    margin-left: 5%;
+}
+.s1 > div > h1 , p{
+    margin-top: 5%;
+}
+.s1{
+    display: flex;
+    margin-block-end: 10%;
+}
+
+
+div {
+    margin-block-end: 5%;
+    margin-block-start: 5%;
+}
